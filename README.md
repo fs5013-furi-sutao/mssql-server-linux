@@ -1,14 +1,17 @@
 # SQL Server コンテナの docker-compose 構成サンプル
 
 ## Get Started
+このリポジトリをクローンする。
 ```console
 git clone https://github.com/fs5013-furi-sutao/mssql.server.linux.git
 ```
 
+クローンしたローカルリポジトリ内に入る。
 ```console
 cd ./mssql.server.linux
 ```
 
+DB コンテナを起動。
 ```console
 docker-compose up -d
 ```
